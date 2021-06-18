@@ -47,21 +47,91 @@ height: 100vh;
    align-items: center;
    text-align: center;
    color: white;
+   line-height: 0em;
+ }
+.services p{
+   margin: 0;
  }
  .services p{
-color: white;
+  color: white;
  }
  .what-we-do{
+  text-align: center;
+}
+ .what-we-do-section{
    display: flex;
-   flex-direction: column;
+   justify-content: center;
+   justify-content: space-evenly;
    justify-content: space-between;
+   align-items: center;
+   margin-left: 12em;
    text-align: center;
  }
+ .what-we-do h4{
+   font-size: 20px;
+   font-weight: 400;
+ }
+
  .portfolio{
+   padding-top: 4em;
    text-align: center;
    display: flex;
    flex-direction: column;
    align-items: center;
    height: 60vh;
-   justify-content: space-between;
  }
+ .portfolio td{
+  padding: 15px;
+ }
+ 
+ .contact-us {
+   margin-top: 4em;
+   padding: 2em;
+   text-align: center;
+   height: 60vh;
+   background-image: url("../images/assets/backgrounds/c_image.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+ }
+ .form {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ #name{
+  display: inline-block;
+  height: 40px;
+  padding-left: 12px;
+  font-size: 1.1em;
+  background-color: transparent;
+  border: 1.5px solid white;
+ }
+ #email{
+  display: inline-block;
+  height: 40px;
+  padding-left: 12px;
+  font-size: 1.1em;
+  background-color: transparent;
+  border: 1.5px solid white;
+ }
+ #email::placeholder{
+  color: white;
+ }
+ #name::placeholder{
+  color: white;
+}
+
+ #textarea {
+   margin: 3em;
+  border: 1.5px solid white;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+#textarea::placeholder{
+  padding: 1em;
+  color: white;
+}
+
+ 
