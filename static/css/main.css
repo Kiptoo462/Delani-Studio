@@ -51,3 +51,9 @@ height: 100vh;
  .services p{
 color: white;
  }
+ .what-we-do{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: center;
+ }
