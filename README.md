@@ -29,7 +29,7 @@ https://github.com/Kiptoo462/Delani-Studio.git
 ## BDD
  + The 'What we do'  icons when clicked should toggle between the respective description of each icon.
  + When you hover the 'portfolio' a white box appears with then name of the project inside.
- + The user should received a thank  you message  for contacting "we have received your message. Thank you f reaching out to us. ".
+ + The user should received a thank  you message  for contacting "we have received your message. Thank you for reaching out to us. ".
 ## Technologies Used
   *  HTML
   *  CSS
