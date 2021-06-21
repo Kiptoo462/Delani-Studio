@@ -6,17 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="static/css/bootstrap.css">
   <link rel="stylesheet" href="static/css/main.css" type="text/css">
+  <script src="static/js/jQuery 3.6.0.js"></script>
+  <script src="static/js/scripts.js"></script>
   <title>Delani-Studio</title>
 </head>
 <body>
-  <div class="container">
-    <div class="logo" class="col-xl-12">
+  <div class="container-fluid">
+    <div class="jumbotron-fluid" >
       <img src="static/images/assets/logo/logo.png" alt="logo image">
-    <h1>WELCOME <br>TO DELANI STUDIO</h1>
+    <h1>WELCOME </h1>
+    <h1>TO DELANI STUDIO</h1>
     <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-    <img src="/static/images/assets/mouse_click.png" alt="mouse click image">
-    </div>
-    <div class="click">
+    <!-- <img class= "mouse" src="/static/images/assets/mouse_click.png" alt="mouse click image"> -->
+    <a href="#click"><img src="/static/images/assets/mouse_click.png" alt="mouse click" id="bounce"></a>
+  </div>
+    <div class="click" id="click">
       <h3>ABOUT US</h3>
       <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are intergrated, interactive <br>and agile.</p>
       <p>Our approach unifies design, development and product managament to create exceptional products.</p>
@@ -31,18 +35,24 @@
     </div>
     <div class="what-we-do">
       <h2>WHAT WE DO</h2>
-      <div class="what-we-do-section">
+      <div  class="what-we-do-section">
         <div class="design">
-          <img src="static/images/assets/services_icons/design_icon.png" alt="design icon image">
+          <img id="design" src="static/images/assets/services_icons/design_icon.png" alt="design icon image">
             <h4>DESIGN</h4>
+          <p class="jQ1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+          <p class="jQ1">Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
         </div>
         <div class="development">
-          <img src="static/images/assets/services_icons/dev_icon.png" alt="dev icon image">
+          <img id="development" src="static/images/assets/services_icons/dev_icon.png" alt="dev icon image">
             <h4>DEVELOPMENT</h4>
+            <p class="jQ2"> All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+            <p class="jQ2"> They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
         <div class="product-management">
-          <img src="static/images/assets/services_icons/product_icon.png" alt="product icon image">
+          <img id="product-management" src="static/images/assets/services_icons/product_icon.png" alt="product icon image">
             <h4>PRODUCT MANAGEMENT</h4>
+            <p class="jQ3">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. </p>
+            <p class="jQ3">This iterative process allows for changes as business requirements evolve.</p>
         </div>
             
       </div>
@@ -51,16 +61,16 @@
       <h2>PORTFOLIO</h2>
       <table>
         <tr>
-          <td><img src="static/images/assets/portfolio/work1.jpg" alt="work1 image"heigth="100" width="250"></td>
-          <td><img src="static/images/assets/portfolio/work2.jpg" alt="work2 image"heigth="100" width="250"></td>
-          <td><img src="static/images/assets/portfolio/work3.jpg" alt="work3 image"heigth="100" width="250"></td>
-          <td><img src="static/images/assets/portfolio/work4.jpg" alt="work4 image"heigth="100" width="250"></td>
+          <td><span class="project_name work-1">Delani-Studio</span><img src="static/images/assets/portfolio/work2.jpg" alt="work2  image" class="img-work-1" heigth="100" width="250"></td>
+          <td><span class="project_name work-2">Delani-Studio</span><img src="static/images/assets/portfolio/work3.jpg" alt="work3  image" class="img-work-2" heigth="100" width="250"></td>
+          <td><span class="project_name work-3">Delani-Studio</span><img src="static/images/assets/portfolio/work4.jpg" alt="work1  image" class="img-work-3" heigth="100" width="250"></td>
+          <td><span class="project_name work-4">Delani-Studio</span><img src="static/images/assets/portfolio/work1.jpg" alt="work4  image" class="img-work-4" heigth="100" width="250"></td>
         </tr>
         <tr>
-          <td><img src="static/images/assets/portfolio/work5.jpg" alt="work5 image"heigth="100" width="250"></td>
-          <td><img src="static/images/assets/portfolio/work6.jpg" alt="work6 image"heigth="100" width="250"></td>
-          <td><img src="static/images/assets/portfolio/work7.jpg" alt="work7 image"heigth="100" width="250"></td>
-          <td><img src="static/images/assets/portfolio/work8.jpg" alt="work8 image"heigth="100" width="250"></td>
+          <td><span class="project_name work-5">Delani-Studio</span><img src="static/images/assets/portfolio/work5.jpg" alt="work5  image" class="img-work-5" heigth="100" width="250"></td>
+          <td><span class="project_name work-6">Delani-Studio</span><img src="static/images/assets/portfolio/work6.jpg" alt="work6  image" class="img-work-6" heigth="100" width="250"></td>
+          <td><span class="project_name work-7">Delani-Studio</span><img src="static/images/assets/portfolio/work7.jpg" alt="work7  image" class="img-work-7" heigth="100" width="250"></td>
+          <td><span class="project_name work-8">Delani-Studio</span><img src="static/images/assets/portfolio/work8.jpg" alt="work8  image" class="img-work-8" heigth="100" width="250"></td>
         </tr>
       </table>
     </div>
@@ -68,12 +78,13 @@
       <h2>CONTACT US</h2>
       <form  action="#">
         <div class="form">
-          <label for="name"></label><br>
-        <input type="text" id="name"  placeholder="Name..."><br>
+        <label for="name"></label><br>
+        <input type="text" id="name"  placeholder="Name..." required><br>
         <label for="email"></label><br>
-        <input type="text" id="email"  placeholder="Email..."><br><br>
+        <input type="email" id="email"  placeholder="Email..." required><br><br>
         </div>
-        <textarea  id="textarea" cols="100" rows="12" placeholder="Your message here..."></textarea>
+        <textarea  cols="100" rows="12" placeholder="Your message here..." required></textarea> <br>
+        <input onclick="contact()" type="submit" value="Submit">
       </form>
     </div>
     <div class="social">
@@ -89,7 +100,7 @@
       <img src="static/images/assets/social_icons/you_tube.png" alt="yout tube image">
       <h4>DELANI STUDIO <br>2019</h4>
     </div>
+   
   </div>
-  
 </body>
 </html>
