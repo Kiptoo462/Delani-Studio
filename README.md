@@ -9,6 +9,7 @@ This is a website for Delani studio to help me consolidate and understand better
 * Github
 * Git
 * Browser(google chrome)
+  
 
 ### Setup
 1. Clone the repo
@@ -21,19 +22,20 @@ https://github.com/Kiptoo462/Delani-Studio.git
   ```sh
   code . or atom . (depending on your favourite text editor.)
   ```
-
-3. Open `index.html` with browser
+3. `cd` to Delani-Studio folder.
+4. Launch `index.html` with browser
 ## Live link
    [Delanie-Studio](https://github.com/Kiptoo462/Delani-Studio)
 ## BDD
-
-
-## Known Bugs
-
+ + The 'What we do'  icons when clicked should toggle between the respective description of each icon.
+ + When you hover the 'portfolio' a white box appears with then name of the project inside.
+ + The user should received a thank  you message  for contacting "we have received your message. Thank you f reaching out to us. ".
 ## Technologies Used
   *  HTML
   *  CSS
   *  JS
+  *  Bootstrap
+  *  JQuery
 
 ## Support and contact details
 victor.kiptoo@student.moringaschool.com
