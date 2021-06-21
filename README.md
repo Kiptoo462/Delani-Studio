@@ -25,7 +25,7 @@ https://github.com/Kiptoo462/Delani-Studio.git
 3. `cd` to Delani-Studio folder.
 4. Launch `index.html` with browser
 ## Live link
-   [Delanie-Studio](https://github.com/Kiptoo462/Delani-Studio)
+   [Delanie-Studio](https://kiptoo462.github.io/Delani-Studio/)
 ## BDD
  + The 'What we do'  icons when clicked should toggle between the respective description of each icon.
  + When you hover the 'portfolio' a white box appears with then name of the project inside.
